@@ -11,7 +11,7 @@ const CardComp = ({data, handler}) => {
                 <Typography
                     variant={'subtitle2'}
                     align={'center'}
-                >Advice #{id}</Typography>
+                >ADVICE #{id}</Typography>
                 <Typography
                     variant={'subtitle1'}
                     align={'center'}

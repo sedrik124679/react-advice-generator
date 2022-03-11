@@ -34,6 +34,7 @@ export const theme = createTheme({
         }
     },
     typography: {
+        fontFamily: 'Hubballi',
         subtitle1: {
             color: subTitle1,
             backgroundColor: 'inherit',
