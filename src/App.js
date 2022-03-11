@@ -9,7 +9,7 @@ import Loader from "./components/Loader/Loader";
 function App() {
 
     const [currentAdvice, setCurrentAdvice] = useState({})
-    const [numberAdvice, setNumberAdvice] = useState(Math.floor(Math.random() * 224))
+    const [numberAdvice, setNumberAdvice] = useState(Math.ceil(Math.random() * 223))
     const [loading, setLoading] = useState(true)
 
     useEffect(async () => {
@@ -31,7 +31,7 @@ function App() {
     }
 
     const handler = () => {
-        setNumberAdvice(Math.floor(Math.random() * 224))
+        setNumberAdvice(Math.ceil(Math.random() * 223))
     }
 
     return (
